@@ -14,5 +14,21 @@
     "dist"
   ],
   "main": "./dist/index.js",
-  "scripts": {}
+  "scripts": {
+    "dev": "esbuild index.ts --bundle --outdir=dist --platform=node \"--external:@prettier\" \"--external:prettier\" --watch",
+    "build": "esbuild index.ts --bundle --outdir=dist --platform=node \"--external:@prettier\" \"--external:prettier\" --minify"
+  },
+  "dependencies": {
+    "v2-plugin": "workspace:*",
+    "v3-plugin": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "20.2.5",
+    "esbuild": "0.17.19",
+    "prettier": "~2.8 || ~3.0",
+    "typescript": "4.9.5"
+  },
+  "peerDependencies": {
+    "prettier": "~2.8 || ~3.0"
+  }
 }
