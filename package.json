@@ -1,0 +1,9 @@
+{
+  "name": "prettier-plugin-noop",
+  "version": "0.0.0",
+  "description": "A Prettier plugin that doesn't do anything. (This is for monorepo testing.)",
+  "repository": "https://github.com/ony3000/prettier-plugin-noop",
+  "author": "Hyeonjong <nianelo4@gmail.com>",
+  "scripts": {},
+  "packageManager": "pnpm@7.33.0"
+}

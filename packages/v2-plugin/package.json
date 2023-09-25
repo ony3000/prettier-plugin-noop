@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "v2-plugin",
+  "version": "0.0.0",
+  "description": "Plugin for prettier v2",
+  "author": "Hyeonjong <nianelo4@gmail.com>",
+  "scripts": {}
+}
